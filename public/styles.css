@@ -1,0 +1,46 @@
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-size: 125%;
+  line-height: 1.4;
+  font-family: Helvetica;
+}
+
+body {
+  gap: 1rem;
+  margin: 0;
+  padding: 1rem;
+  background-color: #ffffff;
+  background: center / auto url('/image.jpeg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.header{
+  background: #fff;
+  padding: 2rem;
+}
+
+.add-orders {
+  background: #fff;
+  padding: 2rem;
+}
+
+[data-position="foods"] {
+  grid-area: foods;
+  overflow: scroll;
+}
+
+[data-position] {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+h1,
+h2 {
+  margin: 0;
